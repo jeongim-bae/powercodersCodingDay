@@ -33,6 +33,7 @@ h1 {
 }
 
 .upper_body { 
+	margin: 0 auto; 
 	width: 300px; 
 	height: 150px;
 	display: flex; 
@@ -74,6 +75,7 @@ h1 {
 
 .left_leg { 
 	margin-left: 45px; 
+	display: inline-block;
 } 
 
 .left_leg:hover {
@@ -86,6 +88,8 @@ h1 {
 
 .right_leg { 
 	margin-left: 30px; 
+	display: inline-block;
+
 }
 
 .left_eye, .right_eye { 
@@ -101,12 +105,16 @@ h1 {
 	position: relative; 
 	top: 100px; 
 	left: 40px; 
+	display: inline-block;
+
 } 
 
 .right_eye { 
 	position: relative; 
 	top: 100px; 
 	left: 120px; 
+	display: inline-block;
+
 }
 
 
